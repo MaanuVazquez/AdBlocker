@@ -1,0 +1,236 @@
+.anchorPaneBase {
+    -fx-background-color: #a62823;
+ 
+    }
+    
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0.0;
+
+}
+
+.tab {
+	-fx-background-color: #c33b36;
+	-fx-border-color: transparent transparent #c33b36 transparent;
+	-fx-min-width: 99.0px;
+	-fx-padding: 10.0px; /* 1 6 1 6 */
+	-fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent ;
+    -fx-background-insets: -1.4, 0.0, 1.0, 2.0;
+}
+
+.tab:hover {
+	-fx-background-color: #de4d48;
+}
+
+.tab:selected {
+	 -fx-background-color: #f15854;
+	 -fx-border-insets: 3.0px 0.0px 0.0px 0.0px;
+	 -fx-border-color: transparent transparent #f15854 transparent;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: white;
+    -fx-font-size: 18.0px;
+    
+}
+    
+.column-header-background { 
+	visibility: hidden; 
+	-fx-padding: -1.0em;
+}
+
+.anchorPaneBase .button {
+	-fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/resources/sprite.png');
+	-fx-background-repeat: no-repeat;
+    
+}
+
+.hbox-buttons .button {
+	-fx-max-width: 74.0px;
+	-fx-min-width: 74.0px;
+	-fx-max-height: 74.0px;
+	-fx-min-height: 74.0px;
+}
+
+.hbox-window-buttons .button {
+	-fx-max-width: 33.0px;
+	-fx-min-width: 33.0px;
+	-fx-max-height: 33.0px;
+	-fx-min-height: 33.0px;
+}
+
+.hbox-portfolio {
+	/*-fx-background-color: #c33b36;*/
+}
+
+.hbox-portfolio .button {
+	-fx-max-width: 26.0px;
+	-fx-min-width: 26.0px;
+	-fx-max-height: 26.0px;
+	-fx-min-height: 26.0px;
+}
+
+.button-exit {
+	-fx-background-position: -50.0px -179.0px;
+}
+
+.button-minimize {
+	-fx-background-position: -11.0px -179.0px;
+}
+
+.button-add {
+	-fx-background-position: -12.0px -15.0px;
+}
+
+.button-delete {
+	-fx-background-position: -99.0px -15.0px;
+}
+
+.button-build {
+	-fx-background-position: -186.0px -15.0px;
+}
+
+.button-github {
+	-fx-background-position: -12.0px -258.0px;
+}
+
+.button-behance {
+	-fx-background-position: -53.0px -258.0px;
+}
+
+.button-paypal {
+	-fx-background-position: -90.0px -258.0px;
+}
+
+.button-exit:hover {
+	-fx-background-position: -50.0px -220.0px;
+}
+
+.button-minimize:hover {
+	-fx-background-position: -11.0px -220.0px;
+}
+
+.button-add:hover {
+	-fx-background-position: -12.0px -97.0px;
+}
+
+.button-delete:hover {
+	-fx-background-position: -99.0px -97.0px;
+}
+
+.button-build:hover {
+	-fx-background-position: -186.0px -97.0px;
+}
+
+.button-github:hover {
+	-fx-background-position: -12.0px -289.0px;
+}
+
+.button-behance:hover {
+	-fx-background-position: -53.0px -289.0px;
+}
+
+.button-paypal:hover {
+	-fx-background-position: -90.0px -289.0px;
+}
+
+.stack-pane-top, .stack-pane-bottom {
+	-fx-background-color: #c33b36;
+}
+
+.stack-pane-title {
+	-fx-max-width: 144.0px;
+	-fx-min-width: 144.0px;
+	-fx-max-height: 27.0px;
+	-fx-min-height: 27.0px;
+	-fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/resources/sprite.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: -12.0px -325.0px;
+}
+
+.stack-pane-add {
+	-fx-max-width: 38.0px;
+	-fx-min-width: 38.0px;
+	-fx-max-height: 18.0px;
+	-fx-min-height: 18.0px;
+	-fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/resources/sprite.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: -12.0px -360.0px;
+}
+
+.stack-pane-delete {
+	-fx-max-width: 50.0px;
+	-fx-min-width: 50.0px;
+	-fx-max-height: 18.0px;
+	-fx-min-height: 18.0px;
+	-fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/resources/sprite.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: -12.0px -386.0px;
+}
+
+.stack-pane-build {
+	-fx-max-width: 45.0px;
+	-fx-min-width: 45.0px;
+	-fx-max-height: 18.0px;
+	-fx-min-height: 18.0px;
+	-fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent;
+    -fx-background-color: transparent;
+    -fx-background-image: url('/resources/sprite.png');
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: -13.0px -413.0px;
+}
+
+.cell .text-field {
+	-fx-focus-color: transparent ;
+    -fx-faint-focus-color: transparent ;
+    -fx-highlight-fill: #f15854;
+}
+
+.cell {
+	-fx-background-color: #f9f9f9;
+	-fx-label-padding: 5.0px 0.0px 5.0px 10.0px;
+	-fx-font-weight: bold;
+}
+
+.cell:odd {
+	-fx-background-color: #f1e7e7;
+}
+
+.cell:selected .cell{
+	-fx-background-color: #c33b36;
+}
+
+.graphic-container {
+	visibility: hidden;
+}
+
+.progress-bar .track {
+	-fx-background-color: #a62823;
+}
+
+.progress-bar .bar {
+    -fx-background-color: linear-gradient(
+        from 0.0px 0.75em to 0.75em 0.0px,
+        repeat,
+        -fx-accent 0.0%,
+        -fx-accent 49.0%,
+        derive(-fx-accent, 30.0%) 50.0%,
+        derive(-fx-accent, 30.0%) 99.0%
+    ),#f8b6b5;
+    -fx-background-insets: 0.0, 0.0, 0.0;
+    -fx-padding: 0.416667em; /* 5 */
+}
